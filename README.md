@@ -12,9 +12,15 @@
 
 <pre>
 .
-├── chata.html
+├── README.md
 ├── chata.mp4
+├── clogo.png
+├── index.html
+├── release.png
 └── styles.css
+
+
+
 </pre>
 
 ### 使用しているパッケージ

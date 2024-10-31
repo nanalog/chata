@@ -11,6 +11,8 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: #fff; /* 上部バーの背景を白に */
     color: #000;
     text-align: center;
@@ -18,9 +20,16 @@ header {
     font-size: 1.8rem; /* 文字サイズを調整 */
     font-weight: bold; /* フォントの太さを指定 */
 }
+.logo-alt {
+    text-align: center; /* 中央に配置 */
+    font-size: 40px; /* フォントサイズを調整 */
+    color: #333; /* テキストカラーを指定（必要に応じて変更） */
+    margin-left: 350px; /* 画像との間に少しスペースを追加 */
+}
+
 
 header .logo {
-    width: 150px;
+    width: 200px;
 }
 /* styles.css */
 
@@ -64,9 +73,11 @@ header .logo {
 }
 
 .image-content img {
-    width: 80%;
-    max-width: 500px;
-    margin-top: 20px;
+    max-width: 120%; 
+    height: auto; 
+    max-width: 3000px;
+    margin-top: 10px;
+    margin-left: 80px;
 }
 
 .partners {
