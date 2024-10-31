@@ -1,3 +1,4 @@
+/* 基本設定 */
 * {
     margin: 0;
     padding: 0;
@@ -10,29 +11,29 @@ body {
     color: white;
 }
 
+/* PC版ヘッダー設定 */
 header {
     display: flex;
     align-items: center;
-    background-color: #fff; /* 上部バーの背景を白に */
+    background-color: #fff;
     color: #000;
     text-align: center;
     padding: 40px 0;
-    font-size: 1.8rem; /* 文字サイズを調整 */
-    font-weight: bold; /* フォントの太さを指定 */
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 .logo-alt {
-    text-align: center; /* 中央に配置 */
-    font-size: 40px; /* フォントサイズを調整 */
-    color: #333; /* テキストカラーを指定（必要に応じて変更） */
-    margin-left: 350px; /* 画像との間に少しスペースを追加 */
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    margin-left: 350px;
 }
-
 
 header .logo {
     width: 200px;
 }
-/* styles.css */
 
+/* メインコンテンツ */
 .main {
     display: flex;
     flex-direction: column;
@@ -42,7 +43,7 @@ header .logo {
 }
 
 .text-content {
-    margin-bottom: 20px; /* ボタンとスクリーンショット画像の間隔を確保 */
+    margin-bottom: 20px;
 }
 
 .cta-button {
@@ -52,7 +53,7 @@ header .logo {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    margin-bottom: 30px; /* ボタン下にスペースを追加 */
+    margin-bottom: 30px;
     transition: background-color 0.3s;
 }
 
@@ -66,47 +67,48 @@ header .logo {
     margin-bottom: 30px;
 }
 
-
-
 .cta-button:hover {
     background-color: #f0f0f0;
 }
 
 .image-content img {
-    max-width: 120%; 
-    height: auto; 
+    max-width: 120%;
+    height: auto;
     max-width: 3000px;
     margin-top: 10px;
     margin-left: 80px;
 }
 
 .partners {
-    background-color: #000; 
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
     gap: 20px;
-    
 }
+
 .video-container {
-    border: 5px solid #333; /* 枠線の色と太さ */
-    border-radius: 10px; /* 角を丸くする */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 影の効果 */
-    overflow: hidden; /* 枠の中に収める */
-    width: 80%; /* コンテナの幅を設定 */
-    max-width: 800px; /* 最大幅を設定 */
-    margin: 20px auto; /* 中央揃え */
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
 }
+
 video {
-    width: 100%; /* 幅を100%に設定 */
-    height: auto; /* 高さは自動で調整 */
+    width: 100%;
+    height: auto;
 }
+
 .partners img {
     width: 100px;
     filter: brightness(0) invert(1);
 }
 
+/* スマホ版のスタイル */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
