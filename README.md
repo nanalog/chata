@@ -15,8 +15,12 @@
 ├── README.md
 ├── chata.mp4
 ├── clogo.png
+├── goods.png
 ├── index.html
+├── pillow.png
+├── quuen.mp4
 ├── release.png
+├── script.js
 └── styles.css
 
 
@@ -27,4 +31,5 @@
 <pre>
 * html
 * css
+* javascript
 
